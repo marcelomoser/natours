@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Site for a company that offers tours in the nature.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moser89/natours.git"
+  },
+  "author": "Marcelo Moser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moser89/natours/issues"
+  },
+  "homepage": "https://github.com/moser89/natours#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
