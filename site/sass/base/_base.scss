@@ -1,0 +1,40 @@
+
+*, 
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+
+	font-size: 20%;
+
+	@include atMini {
+		font-size: 30%;
+	} 
+
+	@include atSmall {
+		font-size: 45%;
+	}
+	
+	@include atMedium {
+		font-size: 62.5%;
+	}
+}
+
+body {
+	color: #777;
+	font-weight: 400;
+	line-height: 1.7;
+	font-family: 'Lato', sans-serif;
+	
+	@include atSmall {
+		padding: 1.5rem;
+	}
+
+	@include atMedium {
+		padding: 3rem;
+	}
+}
